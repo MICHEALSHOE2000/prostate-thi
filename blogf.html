@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.demo {
+   background-color: #eee;
+   cursor: pointer;
+   padding: 25px;
+   width: 100%;
+   text-align:left;
+   font-weight: 900;
+   font-size:16px
+}
+.active, .demo:hover {
+   background-color: #ccc;
+   border: 2px;
+   font-size: 14px;
+}
+.panel {
+   padding: 0 18px;
+   display: none;
+   background-color: #F0F8FF;
+      overflow: hidden;
+}
+</style>
+</head>
+<body>
+<h2>Frequently Asked Question</h2>
+<button class="demo">When Will I Get My Prostate Solution</button>
+<div class="panel">
+   <p>Admit Card will release on 25th March.</p>
+</div>
+<button class="demo">Exam Date</button>
+<div class="panel">
+   <p>Exam will held on 30th March.</p>
+</div>
+<script>
+var val = document.getElementsByClassName("demo");
+var i;
+for (j = 0; j < val.length; j++) {
+   val[j].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+         panel.style.display = "none";
+      } else {
+         panel.style.display = "block";
+      }
+   });
+}
+</script>
+</body>
+</html>
