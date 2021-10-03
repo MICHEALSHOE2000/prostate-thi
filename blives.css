@@ -80,7 +80,7 @@ body{margin:0;
   position: relative;
   }
  .fixed{
- max-height:40px;
+ max-height:160px;
 }
   .withimg {
   position: absolute;
