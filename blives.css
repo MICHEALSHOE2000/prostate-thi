@@ -6,6 +6,7 @@
  font-family:sans-serif;
  }
 }
+@media (max-width: 480px) {
   header {  
   background-color: #173459; 
   position: relative;  
@@ -18,19 +19,22 @@
   box-shadow: 0 0 25px 0 black;
   }  
 }
+
   header * {  
   display: inline;  
   }  
-
+@media (max-width: 480px) {
   header li {  
   margin: 20px;  
   }  
+}
+@media (max-width: 480px) {
   header li a {  
   color: #f5b042;
   text-decoration: none;  
   }  
 }
-
+@media (max-width: 480px) {
   .problem{
   min-width:100%;
   max-width:100%;
@@ -42,16 +46,21 @@
   flex-wrap:no-wrap;
   flex-direction: row-reverse;
   }
+}
+@media (max-width: 480px) {
   .problem > .image {
   flex: 1 0 0%;
   text-align:right;
   margin-top:18px;
   }
+}
+@media (max-width: 480px) {
   .image > img {
   vertical-align:top;/* here */
   max-width: 100%;
   min-height: 50px;
   }
+}
   .problem > .text {
   flex: 2 0 0%;
   /* and eventually */
@@ -61,6 +70,7 @@
   .image {
   position: relative;
   }
+@media (max-width: 480px) {
   .withimg {
   position: absolute;
   bottom: 5px;
@@ -68,6 +78,7 @@
   color:#173459;
   font-weight: 900;
   }
+}
   img {
   width: 100%;
   height: auto;
@@ -87,12 +98,15 @@ display:flex;
 flex-wrap:nowrap;
 justify-content:space-between;
 }
+@media (max-width: 480px) {
 .gallery {
 width:70px;
+}
 }
 .jpeg{
 max-width:100%;
 height:auto;}
+@media (max-width: 480px) {
 .symptons {
          display: flex;
          flex-flow: wrap;
@@ -101,8 +115,9 @@ height:auto;}
          padding-left:5px;
          margin-left:5px;
          margin-right:5px;
-         
+         }
       }
+@media (max-width: 480px) {
       .symptons > div {
          background:none;
          color:black;
@@ -116,6 +131,8 @@ height:auto;}
          font-weight:bolder;
          transition-duration:1s;
       }
+}
+@media (max-width: 480px) {
       .box:hover {
       transform :scale(1.3);
       background:#ff800a;
@@ -123,6 +140,8 @@ height:auto;}
       z-index: 2;
       transition-duration:1s;
       }
+}
+@media (max-width: 480px) {
     .blogTitle {
     display: flex;
     flex-flow: wrap;
@@ -130,8 +149,9 @@ height:auto;}
     padding-left:5px;
     margin-left:5px;
     margin-right:5px;
-    
     }
+    }
+@media (max-width: 480px) {
     .blogTitle > div {
     background:none;
     color:black;
