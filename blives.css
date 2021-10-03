@@ -14,6 +14,7 @@
  }
  *{
   box-sizing: border-box;}
+@media screen and (max-width: 540px) {
   header {  
   background-color: #173459; 
   position: relative;  
@@ -667,3 +668,4 @@ h1 {
   content: '-';
   font-size: 30px;
 }
+} 
