@@ -1,10 +1,11 @@
+*{
+  box-sizing: border-box;}
 @media (max-width: 480px) {
  body{margin:0;
  padding:0;
  font-family:sans-serif;
  }
- *{
-  box-sizing: border-box;}
+}
   header {  
   background-color: #173459; 
   position: relative;  
