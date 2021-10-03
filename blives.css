@@ -79,6 +79,9 @@ body{margin:0;
   .image {
   position: relative;
   }
+ .fixed{
+ max-height:40px;
+}
   .withimg {
   position: absolute;
   bottom: 5px;
