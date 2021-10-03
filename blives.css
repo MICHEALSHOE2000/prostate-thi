@@ -26,9 +26,11 @@
   align-items: center;  
   box-shadow: 0 0 25px 0 black;
   }  
+}
   header * {  
   display: inline;  
   }  
+@media screen and (max-width: 540px) {
   header li {  
   margin: 20px;  
   }  
@@ -36,6 +38,8 @@
   color: #f5b042;
   text-decoration: none;  
   }  
+}
+
   .problem{
   min-width:100%;
   max-width:100%;
