@@ -4,7 +4,7 @@ body{margin:0;
  }
  *{
   box-sizing: border-box;}
-  @media only screen and (max-device-width: 480px) {
+  @media only screen and (max-device-width: 520px) {
   
   
   header {  
@@ -35,7 +35,7 @@ body{margin:0;
   header * {  
   display: inline;  
   }  
-   @media only screen and (max-device-width: 480px) {
+   @media only screen and (max-device-width:520px) {
   header li {  
   margin: 20px;  
   } 
