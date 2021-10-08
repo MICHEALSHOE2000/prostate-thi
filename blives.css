@@ -96,7 +96,7 @@ height:auto;}
          background:none;
          color:black;
          width: 30%;
-         height: 100px;
+         height: auto;
          margin: 5px;
          border: 3px solid #f5b042;
         font-weight: 900;
