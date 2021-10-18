@@ -178,7 +178,8 @@ font-weight:900;}
 color:#0000ff;
 font-size:20px;
 font-weight:bold;}
-
+.natural{font-family:'Arvo', seriff;
+text-align:justify;} 
 * {
          box-sizing: border-box;}
          input[type="checkbox"], input[type="radio"] {
