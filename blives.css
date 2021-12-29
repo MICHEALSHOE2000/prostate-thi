@@ -4,6 +4,10 @@ body {
 .navbar {
     background:#173459;
 }
+.logo{
+padding:0;
+margin:0;
+width:70%;}
 .nav-link,
 .navbar-brand {
     color: #fff;
@@ -18,7 +22,6 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
-
  @media (max-width: 575px) {
     button.navbar-toggler {
         position: absolute !important;
@@ -661,3 +664,14 @@ h1 {
 }
 
  
+.opt{text-align:center;}
+.getebook{width:90%;
+background-color:#173459;
+color:#f5b042;
+border-color:#f5b042;
+border-radius:10px;
+padding:15px 30px;
+text-align:center;
+margin:auto;}
+.freebook{
+text-align:center;}
