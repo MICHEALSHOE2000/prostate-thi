@@ -1,5 +1,8 @@
+html, body {width: auto!important;
+ overflow-x: hidden!important} 
 body {
     padding:0;
+    margin:0;
 }
 .navbar {
     background:#173459;
@@ -363,7 +366,7 @@ padding-right:5px;
 padding-left:5px;
 margin-left:5px;
 margin-right:5px;
- border: 2px solid #f5b042;;
+ border: 2px solid #f5b042;
  background-color: #eee;
  border-radius: 5px;
  padding: 16px 3px 0 3px;
@@ -675,3 +678,136 @@ text-align:center;
 margin:auto;}
 .freebook{
 text-align:center;}
+.refund{
+text-align:center;
+font-family: 'Arvo', serif;}
+.hassle{
+color:red;}
+
+
+
+.product{
+display: flex;
+background-color: rgb(237, 243, 243);
+gap: 5rem;
+}
+.offer{
+text-align:center;
+font-family: 'Arvo', serif;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+}
+.timer{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 25px;
+    color:red;
+    margin-top: -5px;
+    width:70%;
+}
+.days{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+   
+}
+
+
+.hours{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+}
+.mins{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+}
+
+.secs{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+}
+
+
+
+
+
+.days, .hours, .mins, .secs
+{height: 13vh;
+}
+#name{
+text-align:center;
+}
+.proudOffer{
+background-color:#657D65;}
+.revealUp{text-align:center;}
+.consultation{
+display:block;
+background:#f5b042;
+padding:5px;
+height:20vh;
+margin-right:15px;
+margin-left:15px;
+border-radius:10px;
+text-align:center;
+text-decoration:none;}
+.session{
+text-align:center;
+color:white;
+text-decoration:none;
+font-size:22px;
+}
+.filthy{
+text-align:center;
+font-weight:bolder;
+font-size:25px;
+}
+.prostateSolution{
+text-align:justify;
+font-weight:bold;
+margin:2px;
+line-height:30px;
+font-size:17px;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.moneyback{
+background-color:#eee;
+padding-right:5px;
+padding-left:5px;
+margin-left:5px;
+margin-right:5px;
+ border: 2px solid #eee;
+ background-color:white;
+ border-radius: 15px;
+ padding: 16px 3px 0 3px;
+ margin: 16px 10px 0 10px;}
+ .guarantee{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;}
