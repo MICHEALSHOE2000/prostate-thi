@@ -90,7 +90,9 @@ INCLUDING A 7 DAYS BALANCED MEAL FOR ENLARGED PROSTATE</li>
 <li>WHAT TO LOOK FOR IN A PROSTATE DRUG OR SUPPLEMENT</li>
 </ul>
 <div class="form-container">
-      <form id="myForm" name="myForm">
+      <form action"https://formspree.io/f/xeqvnlve" name="myForm"
+      onsubmit = "return(validate())"
+      method = "POST">
       	GET THE EBOOK BELOW<br> <br>
          <div class="input-cnt">
             <i class="material-icons">person</i>
@@ -109,36 +111,9 @@ INCLUDING A 7 DAYS BALANCED MEAL FOR ENLARGED PROSTATE</li>
          </div>
         <div class="freebook">
         <button class="getebook" onclick="submit(e)">GET THE EBOOK NOW</button> 
-        </div><br><br></form></div>
-        
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-function submit(e)
-     {
-     const name = $("#name").val();
-     const email = $("#email").val();
-     const phone = $("#phone").val();
-     
-     $.ajax({
-     type: "post",
-     cache:false,
-     url: "https://formspree.io/f/xeqvnlv",
-     data: {
-     name: name,
-     email address: email,
-     phone number: phone
-     },
-     complete: function()
-     {
-     $("#myForm").trigger('reset');
-     window.location = 'index.html';
-     
-     }
-     
-     });
-     }
+        </div><br><br>
+            </form></div>
 
-</script>
 <footer class="footer-distributed">
       
       <div class="footer-left">
