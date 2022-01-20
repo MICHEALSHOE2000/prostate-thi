@@ -90,55 +90,55 @@ INCLUDING A 7 DAYS BALANCED MEAL FOR ENLARGED PROSTATE</li>
 <li>WHAT TO LOOK FOR IN A PROSTATE DRUG OR SUPPLEMENT</li>
 </ul>
 <div class="form-container">
-      <form id="contactform" method="POST" >
+      <form id="myForm" name="myForm">
       	GET THE EBOOK BELOW<br> <br>
          <div class="input-cnt">
             <i class="material-icons">person</i>
-            <input type="text" placeholder="Name" name="Name" />
+            <input id="name" type="text" placeholder="Name" name="Name" required/>
          </div>
          
          <div class="input-cnt">
             <i class="material-icons">email</i>
-            <input type="email" placeholder="Email" name="email" required/>
+            <input id="email" type="email" placeholder="Email" name="email" required/>
          </div>
          
          <div class="input-cnt">
             <i class="material-icons">phone No</i>
-            <input type="Tel"  name="Phone no" placeholder="07088888555" 
+            <input id="phone" type="Tel"  name="Phone no" placeholder="07088888555" 
              minlenght="11" pattern="\d{11}"  required/>
          </div>
         <div class="freebook">
-        <button id="sendMessage" onclick="showForm()">GET THE EBOOK NOW</button> 
+        <button class="getebook" onclick="submit(e)">GET THE EBOOK NOW</button> 
         </div><br><br></form></div>
         
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+function submit(e)
+     {
+     const name = $("#name").val();
+     const email = $("#email").val();
+     const phone = $("#phone").val();
      
-     var message =""
-     $("#sendMessage").
-     on("click, function"()
-     {message = $("#contactform").serialize
-     }
-	$.ajax({
+     $.ajax({
      type: "post",
      cache:false,
      url: "https://formspree.io/f/xeqvnlv",
      data: {
      name: name,
-     email address: email
+     email address: email,
+     phone number: phone
      },
-     success: function()
+     complete: function()
      {
-     $("#formid").trigger('reset');
-     window.location = 'bliveshealth.xyz/for';
+     $("#myForm").trigger('reset');
+     window.location = 'index.html';
      
      }
      
      });
      }
-     
-     
-     
-     </script>
+
+</script>
 <footer class="footer-distributed">
       
       <div class="footer-left">
