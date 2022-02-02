@@ -158,7 +158,7 @@ height:auto;}
      .prost{
      color:red}
     .Click{text-decoration:none;
-     color:#0000ff;
+     :#0000ff;
      }
 .imported{color:red;
 text-align:center;}
@@ -670,6 +670,7 @@ h1 {
 .opt{text-align:center;}
 .getebook{width:90%;
 background-color:red;
+
 color:white;
 border-color:red;
 border-radius:10px;
@@ -770,6 +771,7 @@ font-weight:bolder;
 font-size:25px;
 }
 .prostateSolution{
+font-family: 'Arvo', serif;
 text-align:justify;
 font-weight:bold;
 margin:2px;
@@ -810,6 +812,10 @@ margin-right:5px;
  display: block;
  margin-left: auto;
  margin-right: auto;
- width: 50%;}
+ width: 50%;;}
+ .buynow{
+ color:#344f08;
+ }
+ .blueprints{font-size:1.2em;}
  .gfonts{font-family: 'Arvo', serif;
  text-align:center;}
