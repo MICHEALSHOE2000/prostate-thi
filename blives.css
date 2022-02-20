@@ -692,9 +692,9 @@ font-family: 'Arvo', serif;
 }
 .timer{
     display: flex;
-    text-align: center;
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     gap: 25px;
     color:red;
     margin-top: -5px;
