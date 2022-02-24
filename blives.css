@@ -87,6 +87,31 @@ display:flex;
 flex-wrap:nowrap;
 justify-content:space-between;
 }
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+    html, body {
+    }
+    p>a {
+    color: #fd084a;
+    }
+    .blink {
+    animation: blink 0.5s infinite;
+    }
+    @keyframes blink{
+    to { opacity: .0; }
+    }
+    .flex {
+    display: flex;
+    }
+    .header-sub-title {
+    color: #fff;
+    font-family: "Courier";
+    font-size: 20px;
+    padding: 0.1em;
+    }
+  #tick
+  li:before {content:"\2714\0020"; } 
+    ul{list-style-type:none;}
+    
 .gallery {
 width:70px;
 }
