@@ -82,11 +82,17 @@ width:70%;}
 color: #f5b042;
   text-decoration: none;  
   }
+  .definition{font-family: 'Arvo', serif;
+ color:red; }
+ .bph{font-size:1.5em;
+ padding:3px;
+ margin:10px
+ }
 .problem{
 display:flex;
 flex-wrap:nowrap;
 justify-content:space-between;
-}
+}}
 @import 'https://fonts.googleapis.com/css?family=Roboto';
     html, body {
     }
@@ -786,13 +792,12 @@ font-weight:bolder;
 font-size:25px;
 }
 .prostateSolution{
+font-size:0.8em;
 font-family: 'Arvo', serif;
 text-align:justify;
 font-weight:bold;
-Padding:6px;
 margin:2px;
 line-height:30px;
-font-size:17px;
 }
 
 hr.style-seven {
