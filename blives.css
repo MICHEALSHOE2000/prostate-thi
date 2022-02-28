@@ -74,6 +74,8 @@ width:70%;}
  
   }
   .gfont{font-family: 'Arvo', serif;}
+  .therapy{font-family: 'Arvo', serif;
+  color:red;}
   .dlink{text-decoration:none;
   color:#0000ff;}
   .click{text-decoration:none
@@ -203,7 +205,7 @@ span.ejaculation{font-size:16px;}
 .explain{text-align:justify;
 text-transform:capitalize;
 margin-right:4px; margin-left:2px;
-}
+font-size:1.5em;}
 .buy{text-decoration:none;
 color:#0000ff;
 font-weight:900;}
