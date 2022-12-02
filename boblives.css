@@ -1,0 +1,925 @@
+html, body {width: auto!important;
+ overflow-x: hidden!important} 
+body {
+    padding:0;
+    margin:0;
+}
+.navbar {
+    background:#173459;
+}
+.logo{
+padding:0;
+margin:0;
+width:70%;}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+ @media (max-width: 575px) {
+    button.navbar-toggler {
+        position: absolute !important;
+        right: 10px !important;
+        top: 14px !important;
+    }
+  .problem{
+  min-width:100%;
+  max-width:100%;
+  background-image:linear-gradient(to top right,
+  white 50%, lightblue 50%);
+  color:black;
+  height:auto;
+  display: flex;
+  flex-wrap:no-wrap;
+  flex-direction: row-reverse;
+  }
+  .problem > .image {
+  flex: 1 0 0%;
+  text-align:right;
+  margin-top:18px;
+  }
+  .image > img {
+  vertical-align:top;/* here */
+  max-width: 100%;
+  min-height: 50px;
+  }
+  .problem > .text {
+  flex: 2 0 0%;
+  /* and eventually */
+  
+  margin:auto 0;
+  }
+  .image {
+  position: relative;
+  }
+  .withimg {
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+  color:#173459;
+  font-weight: 900;
+  }
+  img {
+  width: 100%;
+  height: auto;
+ 
+  }
+  .gfont{font-family: 'Arvo', serif;}
+  .therapy{font-family: 'Arvo', serif;
+  color:red;}
+  .dlink{text-decoration:none;
+  color:#0000ff;}
+  .click{text-decoration:none
+  font-family:"Arvo",serif;}
+.normala{
+color: #f5b042;
+  text-decoration: none;  
+  }
+  .definition{font-family: 'Arvo', serif;
+ color:red;
+ margin:3px; }
+ .bph{font-size:1.5em;
+ padding:3px;
+ margin:10px
+ }
+.problem{
+display:flex;
+flex-wrap:nowrap;
+justify-content:space-between;
+}}
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+    html, body {
+    }
+    p>a {
+    color: #fd084a;
+    }
+    .blink {
+    animation: blink 0.5s infinite;
+    }
+    @keyframes blink{
+    to { opacity: .0; }
+    }
+    .flex {
+    display: flex;
+    }
+    .header-sub-title {
+    color: #fff;
+    font-family: "Courier";
+    font-size: 20px;
+    padding: 0.1em;
+    }
+  #tick
+  li:before {content:"\2714\0020"; } 
+    ul{list-style-type:none;}
+    
+.gallery {
+width:70px;
+}
+.jpeg{
+max-width:100%;
+height:auto;}
+.symptons {
+         display: flex;
+         flex-flow: wrap;
+         background:lightgrey;
+         padding-right:5px;
+         padding-left:5px;
+         margin-left:5px;
+         margin-right:5px;
+         
+      }
+      .box {
+         background:none;
+         color:black;
+         width: 100%;
+         height: auto;
+         margin: 3px;
+         padding:3px;
+         border: 3px solid #f5b042;
+        font-weight: 900;
+         font-size:20px;
+         border-radius:10px;
+         font-weight:bolder;
+         transition-duration:1s;
+      }
+      .sabri{
+      margin-left:2px;
+     }
+    .blogTitle {
+    display: flex;
+    flex-flow: wrap;
+    padding-right:5px;
+    padding-left:5px;
+    margin-left:5px;
+    margin-right:5px;
+    
+    }
+    .blogTitle > div {
+    background:none;
+    color:black;
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid #f5b042;
+    border-radius:10px;
+    font-weight:bolder;
+    transition-duration:1s;
+    }
+    
+    .learnMore{
+    overflow:hidden;
+    margin:1px;}
+    
+     .prost{
+     color:red}
+    .Click{text-decoration:none;
+     :#0000ff;
+     }
+.imported{color:red;
+text-align:center;}
+body{font-family:monteserrat;}
+.upper{background:#173459;
+color:white}
+.xlarge{
+ font-family:`Tangerine' seriff;
+ }
+
+p.large{font-size:13px;
+text-align:center;
+fontweight:bolder;}
+p.xlarge{font-size:25px; font-style:italic;
+font-weight:bolder; text-align:center;}
+span.Ad{color:red;}
+span.side{color:red;
+background-color:yellow;}
+span.performance{font-size:13px;}
+span.ejaculation{font-size:16px;}
+.sample{max-width:100%;}
+.explain{text-align:justify;
+text-transform:capitalize;
+margin-right:4px; margin-left:2px;
+font-size:1.5em;}
+.buy{text-decoration:none;
+color:#0000ff;
+font-weight:900;}
+.blogHead{text-decoration:none;
+color:#0000ff;
+font-size:20px;
+font-weight:bold;
+margin:5px;}
+.natural{font-family:'Arvo', seriff;
+text-align:justify;} 
+* {
+         box-sizing: border-box;}
+         input[type="checkbox"], input[type="radio"] {
+         display: none;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .form-container {
+         margin: 20px;
+         padding: 15px;
+         background: #173459;
+         color: white;
+         -shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      }
+      .input-cnt {
+         display: flex; /* display the icon and the input in a line */
+         margin-bottom: 15px;
+      }
+      .input-cnt:last-child {
+         margin-bottom: 0px;
+      }
+      .input-cnt > i {
+         min-width: 73px; /* set a minimum width for the icon */
+         padding: 10px; /* make sure the icon is centered vertically */
+         text-align: center; /* horizontally center the icon */
+         background: lightgrey;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+         color: #0076ff;
+      }
+      /* change styles when focused */
+      .input-cnt:hover > i {
+         background: #0076ff;
+         color: white;
+      }
+      /* style the input and textarea */
+      .input-cnt > input[type="text"],input[type="tel"],input[type="email"], .input-cnt > textarea  {
+         outline: none;
+         border: none;
+         padding: 10px;
+         border: 1px solid lightgrey;
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+         width: 100%;
+      }
+      /* center textarea icon and increase size */
+      .textarea-icon {
+         padding: 60px 10px !important; /* top and bottom paddings are set to 60px */
+      }
+      /* style the submit button */
+      .input-cnt > input[type="submit"] {
+         border: none;
+         border-radius: 20px;
+         outline: none;
+         width: 75%;
+         margin: 0 auto;
+         font-size: 105%;
+         padding: 8px;
+         color: #0076ff;
+         background: white;
+         transition-duration: .5s;
+      }
+      /* add a hover effect for the submit button */
+      .input-cnt > input[type="submit"]:hover {
+         color: white;
+         background: #0076ff;
+      }
+      label {
+      display:block;
+      max-width: 600px;
+      padding: 10px;
+      background:lightgrey;
+      color: #0076ff;
+      border: 1px solid white;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      }
+      /* create our custom check and radio */
+      label > span {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border:3px solid blue;
+      border-radius: 50%;
+      margin-right: 5px;
+      }
+      /* style the labels when their corresponding inputs are checked */
+      input[type="checkbox"],input[type="radio"],:checked + label, input[type="radio"]:checked + label {
+      background: #173459;
+      color: white;
+      }
+      /* style the custom check boxes and radios when their corresponding inputs are checked */
+      input[type="checkbox"]:checked + label > span, input[type="radio"]:checked + label > span {
+      background: #173459;}
+      select {
+      min-width:170px;
+      height:40px;
+      outline: none;
+      border: none;
+      background: white;
+      place-items:cente;
+      color: #0076ff;
+     min-1height:40px;
+      cursor:pointer;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      }
+      .select:focus {}
+      .select:hover{
+      outline:none;
+      
+      }
+      .select option{
+      background-color:; #0076ff;}
+      
+.cssmarquee {
+ height:28px;  
+ overflow: hidden;
+ white-space:nowrap;
+ color:white;
+position:relative;
+background-color:#173459;;
+}
+
+.cssmarquee p {
+font-weight:900;
+text-transform:capitalize;
+ color: white;
+ width: 40%;
+ height: 25px;
+ margin: 0;
+ line-height: 20px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);  
+ transform:translateX(100%);
+ /* Apply animation to this element */  
+ -moz-animation: demo-1 15s linear infinite;
+ -webkit-animation: demo-_1 15s linear infinite;
+ animation: demo-1 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes demo-1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes demo-1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes demo-1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);     
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-780%); 
+ }
+ }
+ /* Style the container with a rounded border, grey background and some padding and margin */
+.testimonial {
+
+padding-right:5px;
+padding-left:5px;
+margin-left:5px;
+margin-right:5px;
+ border: 2px solid #f5b042;
+ background-color: #eee;
+ border-radius: 5px;
+ padding: 16px 3px 0 3px;
+ margin: 16px 10px 0 10px;
+ }
+ 
+ /* Clear floats after containers */
+.testimonial::after {
+ content: "";
+ clear: both;
+ display: table;
+ }
+ 
+ /* Float images inside the r to the left. Add a right margin, and style the image as a circle */
+.testimonial img {
+ float: left;
+ margin-right: 20px;
+ border-radius: 50%;
+ }
+ 
+ /* Increase the font-size of a span element */
+ .testimonial span {
+ font-size: 20px;
+ margin-right: 15px;
+ }
+ 
+ /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+ @media (max-width: 500px) {
+ .testimonial {
+ text-align: center;
+ }
+ 
+ .testimonial img {
+ margin: auto;
+ float: none;
+ display: block;
+ }
+ .words{
+ color:red;
+ font-weight:bold}
+ }
+ 
+ .whats-app{
+ position: fixed;
+ width: 40px;
+ height: 40px;
+ bottom: 15px;
+ background-color: #25d366;
+ color: #FFF;
+ border-radius: 50px;
+ text-align: center;
+" font-size: 30px;
+ box-shadow: 3px 4px 3px #999;
+ right: 10px;
+ z-index: 100;
+ }
+ 
+ .my-float {
+ margin-top: 12px;
+ }
+ .ejo{
+ font-size:1.5em;}
+
+.problem{width:240px;}
+
+img
+{max-width:100%;}
+.quantity{
+font-weight:bolder;
+justify-content:space-between;
+text-align:center;}
+
+.footer-distributed{
+ background-color: #173459;;
+ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+ box-sizing: border-box;
+ width: 100%;
+ text-align: left;
+ font: bold 16px sans-serif;
+ 
+ padding: 55px 50px;
+ margin-top: 5px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+ display:inline-block ;
+ vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+ width: 40%;
+}
+ 
+.footer-distributed h3{
+ color:  #ffffff;
+ font: normal 36px 'Cookie', cursive;
+ margin: 0;
+}
+ 
+.footer-distributed h3 span{
+ color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+ color:#f5b042;
+ margin:20px;
+ padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+ display:inline-block;
+ line-height: 1.8;
+ text-decoration: none;
+ color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+ color:  #8f9296;
+ font-size: 14px;
+ font-weight: normal;
+ margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+ width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+ background-color:  #0076ff;
+ color: #ffffff;
+ font-size: 25px;
+ width: 38px;
+ height: 38px;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 42px;
+ margin: 10px 15px;
+ vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+ font-size: 17px;
+ line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+ display: inline-block;
+ color: #ffffff;
+ vertical-align: middle;
+ margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+ display:block;
+ font-weight: normal;
+ font-size:14px;
+ line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+ color:  #5383d3;
+ text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+ width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+ line-height: 20px;
+ color:  #92999f;
+ font-size: 13px;
+ font-weight: normal;
+ margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+ display: block;
+ color:  #ffffff;
+ font-size: 14px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+ margin-top: 25px;}
+.footer-distributed .footer-icons a{
+ display: inline-block;
+ width: 35px;
+ height: 35px;
+ cursor: pointer;
+ background-color:  #0076ff;
+ border-radius: 2px;
+ 
+ font-size: 20px;
+ color: #ffffff;
+ text-align: center;
+ line-height: 35px;
+ 
+ margin-right: 3px;
+ margin-bottom: 5px;
+
+ }
+ 
+@media (max-width: 880px) {
+ 
+ .footer-distributed{
+ font: bold 14px sans-serif;
+ 
+ }
+ 
+ .footer-distributed .footer-left,
+ .footer-distributed .footer-center,
+ .footer-distributed .footer-right{
+ display: block;
+ width: 100%;
+ margin-bottom:10px;
+ text-align: center;
+ }
+ 
+ .footer-distributed .footer-center i{
+ margin-left: 0;
+ }
+ .main {
+ line-height: normal;
+ font-size: auto;
+ }
+ }
+h1 {
+  text-align: center;
+}
+
+/* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
+
+.accordion {
+  width: 100%;
+  margin: 9pxauto;
+  color: black;
+  background-color: white;
+  padding: 5px 5px;
+}
+.accordion .container {
+  position: relative;
+  margin: 3px 3px;
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 19px;
+  color: black;
+  cursor:pointer;
+}
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+
+.accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 90%;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+/* Adds a horizontal line between the contents */
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+.accordion .container.active .content {
+  height: 100px;
+}
+
+/* Changes from plus sign to negative sign once active */
+
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
+
+ 
+.opt{text-align:center;}
+.getebook{width:90%;
+background-color:red;
+
+color:white;
+border-color:red;
+border-radius:10px;
+padding:15px 30px;
+text-align:center;
+margin:auto;}
+.freebook{
+text-align:center;}
+.refund{
+text-align:center;
+font-family: 'Arvo', serif;}
+.hassle{
+color:red;}
+.appointment{
+  font-family: bold 11px sans-serif;
+  text-decoration:none;
+  border:1px solid red;
+  border-style:light;
+  border-radius:15px;
+  padding:15px 30px 15px 30px;
+  font-size: 20px;
+  outline: red;
+  background-color: #f47354;
+  margin:20px;
+  color:white;
+  text-align:center;
+ }
+  .dot{
+    height: 90px;
+    width: 90px;
+    margin-top:-20px;
+    background-color: #f47354;;
+    border-radius: 50%;
+    display: inline-block;
+    text-align:center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+
+.product{
+display: flex;
+background-color: rgb(237, 243, 243);
+gap: 5rem;
+}
+.offer{
+text-align:center;
+font-family: 'Arvo', serif;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    color:red;
+    margin-top: -5px;
+    width:70%;
+}
+.days{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+   
+}
+
+
+.hours{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+}
+.mins{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+}
+
+.secs{
+    background-color: blanchedalmond;
+    padding: 11px;
+    font-size: 20px;
+}
+
+
+
+
+
+.days, .hours, .mins, .secs
+{height: 13vh;
+}
+#name{
+text-align:center;
+}
+.proudOffer{
+background-color:#657D65;}
+.revealUp{text-align:center;}
+.consultation{
+display:block;
+background:#f5b042;
+padding:5px;
+height:20vh;
+margin-right:15px;
+margin-left:15px;
+border-radius:10px;
+text-align:center;
+text-decoration:none;}
+.session{
+text-align:center;
+color:white;
+text-decoration:none;
+font-size:22px;
+}
+.filthy{
+text-align:center;
+font-weight:bolder;
+font-size:25px;
+}
+.prostateSolution{
+font-size:0.7em;
+font-family: 'Arvo', serif;
+text-align:justify;
+font-weight:bold;
+margin:2px;
+line-height:30px;
+}
+.hare{
+margin:.5em;
+background-color:#73f094;
+font-size:1.2em;}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.moneyback{
+background-color:#eee;
+padding-right:5px;
+padding-left:5px;
+margin-left:5px;
+margin-right:5px;
+ border: 2px solid #eee;
+ background-color:white;
+ border-radius: 15px;
+ padding: 16px 3px 0 3px;
+ margin: 16px 10px 0 10px;}
+ .guarantee{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;;}
+ .buynow{
+ color:#344f08;
+ }
+ .blueprints{font-size:1.2em;}
+ .gfonts{font-family: 'Arvo', serif;
+ text-align:center;}
+ .common{
+  color:#853518;
+  margin:10px;
+ font-family: 'Arvo', serif;}
+ .help{
+margin:10px;
+ font-family: 'Arvo', serif;}
+ .checked {
+  color: orange;
+}
+.game{
+font-family: 'Arvo', serif;
+}
+.hame{font-family:'Arvo', serif;
+line-height:35px;
+margin:5px;
+}
+.team{
+margin:5px;
+line-height:30px;}
+.sof{background-color:#665ae4;
+color:white;}
+.getNow{font-family: sans-serif;
+         border: none;
+         padding: 15px 30px;
+         font-size: 20px;
+         outline: none;
+         border-radius: 5px;
+         background-color: purple;
+         color: #f8f9f9;
+         text-align:center;
+         margin:0 auto;
+         text-align:center;}
+         
+ .GFG{font-family: sans-serif;
+ border: none;
+ padding: 15px 30px;
+ font-size: 20px;
+ outline: none;
+ border-radius: 5px;
+ text-align: center; 
+ margin:10px 2em;
+ display:inline-block;
+ background-color:#665ae4;
+ color:white;
+          } 
+         
+         
