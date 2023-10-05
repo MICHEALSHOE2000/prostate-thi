@@ -73,6 +73,39 @@ html, body {width: auto!important;
    height: auto;
   
    }
+    
+  }
+  .whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366; /* Green background color */
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-icon a {
+  display: block;
+  text-decoration: none;
+  color: white; /* White text color */
+  transition: transform 0.2s;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
+.overlay-text {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.whatsapp-icon img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
    .gfont{font-family: 'Arvo', serif;}
    .therapy{font-family: 'Arvo', serif;
    color:red;}
@@ -445,21 +478,7 @@ html, body {width: auto!important;
   font-weight:bold}
   }
   
-  .whats-app{
-  position: fixed;
-  width: 90px;
-  height: 90px;
-  bottom: 15px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
- " font-size: 30px;
-  box-shadow: 3px 4px 3px #999;
-  right: 10px;
-  z-index: 100;
-  }
-  
+ 
   .my-float {
   margin-top: 12px;
   }
