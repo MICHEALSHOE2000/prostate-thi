@@ -106,6 +106,23 @@ html, body {width: auto!important;
   margin-top: 10px;
 }
 
+  .call-to-action-button {
+    background-color: #3498db; /* Choose a visually appealing color */
+    color: #fff; /* Text color */
+    font-size: 18px; /* Adjust the font size for readability */
+    padding: 10px 20px; /* Add padding to increase the button's size */
+    border: none; /* Remove the button border for a cleaner look */
+    border-radius: 5px; /* Rounded corners for a modern feel */
+    cursor: pointer; /* Change the cursor to a pointer on hover to indicate interactivity */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+
+  .call-to-action-button:hover {
+    background-color: #2980b9; /* Change the background color on hover for a subtle effect */
+  }
+
+
+
    .gfont{font-family: 'Arvo', serif;}
    .therapy{font-family: 'Arvo', serif;
    color:red;}
