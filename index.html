@@ -2,14 +2,31 @@
      <html lang='en'>
      <head>
      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PRM3VP1QR9"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11364445976"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-PRM3VP1QR9');
+  gtag('config', 'AW-11364445976');
 </script>
+          <!-- Event snippet for buy product conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11364445976/itE4CKqU3-kYEJje_qoq',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
      <meta charset="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- CSS only -->
@@ -26,12 +43,10 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
-     <link rel="stylesheet"
-     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
     <a class="whats-app" href="https://api.whatsapp.com/send?phone=2349151625737&amp;text=Good%20Day%20I%20Am%20Interested%20In%20Getting%20Your%20Prostate%20Shrink%20Solution%20Capsules." target="_blank">
-        <i class="fa fa-whatsapp fa-5x my-float"></i>
+        <i class="fa fa-whatsapp  my-float"></i>
      </a>
-     </div>
      <link rel ="canonical" href="blives.xyz/index.html"/>
      <link rel="stylesheet" type="text/css" href="boblives.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -96,9 +111,10 @@
         whatsappIcon.style.display = 'block'; // Display the WhatsApp icon and button
     }
 
-    // Set a timeout to call the showWhatsAppButton function after 10 seconds (10,000 milliseconds)
-    setTimeout(showWhatsAppButton, 15000);
-</script>     <h2 class="refund">REVOLUTIONARY PROSTATE TREATMENT FOR <span class="hassle">ENLARGED PROSTATE AND PROSTATIS </span>HELPING  NIGERIAN MEN<br>Say Goodbye to Prostate Problems for Good!</span></h2>
+    // Set a timeout to call the showWhatsAppButton function after 10 seconds (15,000 milliseconds)
+    setTimeout(showWhatsAppButton, 10000);
+</script>
+     <h2 class="refund">REVOLUTIONARY PROSTATE TREATMENT FOR <span class="hassle">ENLARGED PROSTATE AND PROSTATIS </span>HELPING  NIGERIAN MEN<br>Say Goodbye to Prostate Problems for Good!</span></h2>
      <hr>
          <div class="ejo" style="margin:5px"><p>
    <div class="symptons" id="wraprse">
@@ -115,6 +131,7 @@
    <img src="img/rush.gif">
    <h3 class="definition"><center>DO NOT LET IT RESULT TO THIS</h3></center>
    <img src="img/catheter.jpg">
+   
    <h2 class="refund">Attention, Nigerian Men Who've Been Let Down Before<span class="hassle"> WHILE TREATING ENLARGED PROSTATE AND PROSTATITIS </span></h2>
      <hr>
       <p class="hame"><b>Are you tired of trying product after product for your prostate issues, only to be disappointed with no real results? We hear you, and we understand the frustration you've been through.</p></b>
@@ -125,7 +142,7 @@
 <p>Our <em>PROSTATE WEL SOLUTION CAPSULE</em> is not just another promise; it's backed by years of research and development. We've worked tirelessly to create a potent formula that targets the root cause of prostate issues. 
      With our treatment, you can finally experience the relief and improvement you've been longing for.</p>
 <p class="hame">We understand the emotional toll your prostate issues have taken on your life. 
-     Worrying about your urine problems, feeling frustrated due to low sex life, and missing out on life's joys - it's time to change that narrative. Imagine a life where you can confidently go about your daily activities, free from  urinary discomfort and uncertainty. Our <span class="hassle"><em>PROSTATE SHRINK SOLUTION CAPSULE</em></span> can help you regain that sense of normalcy.</p>
+     Worrying about your urine problems, feeling frustrated due to low sex life, and missing out on life's joys - it's time to change that narrative. Imagine a life where you can confidently go about your daily activities, free from  urinary discomfort and uncertainty. Our <span class="hassle"><em>PROSTATE WEL SOLUTION CAPSULE</em></span> can help you regain that sense of normalcy.</p>
 <p>You are not alone in this journey. Many men like you have faced the same challenges and are now living a better life thanks to our <span class="hassle"><em>PROSTATE WEL SOLUTION CAPSULE</em></span>. When you choose our treatment, you're not just buying a product – you're becoming part of a community of men who have overcome prostte issues together.</p>
  <h3 class="definition"><center>Here's why our treatment stands out from the rest:</h3></center>
   <li><b>✅ Proven Results - Backed by Research:</b> Our treatment has been specifically designed to target the root causes of prostate issues.
@@ -140,6 +157,11 @@
        If you don't see noticeable improvements, we'll refund your investment. No questions asked.</li>
   <li>✅ Specially Formulated for Nigerian Men</li>
 </ol></b>
+<div class="popup-container">
+        <div class="popup">
+            <span id="popup-message"></span>
+        </div>
+    </div>
      <h3 class="hame"> Don't let skepticism hold you back any longer. It's time to take charge of your prostate health and reclaim your life.</h3>    <img src="img/prowel.jpg"/>
            <h3><center>Clinical Strenght</center></h3>
      <h3 class="offer"> ENJOY MASSIVE DISCOUNT <br>
@@ -213,29 +235,25 @@
      <h2 style="text-align: center"> Fill this Contact 
      
      </h2>
-     <div class="form-container">
- <form action="https://formspree.io/f/xeqvnlve"
-  method="POST">  
-     <div class="input-cnt">
-     <i class="material-icons">person</i>
-     <input type="text" placeholder="Name" name="Name" />
-     </div>
-     <div class="input-cnt">
-     <i class="material-icons">phone No </i>
-     <input type="Tel"  name="Phone no" placeholder="07088888555" 
-     minlenght="11" pattern="\d{11}" title="Please check your number well"  required/>
-     </div>
-     <div class="input-cnt">
-     <i class="material-icons">phone NoAgain</i>
-     <input type="Tel"  name="Phone no" placeholder="07088888555" 
-     minlenght="11" pattern="\d{11}" title="Please check your number well"  required/>
-     </div>
-     <div class="input-cnt">
-     <i class="material-icons">State</i>
-     <div class="custom_select">
-     <selct class="select" type="Option" placeholder="State" name="state" required/>
-     <select name="States_of_Nigeria" id="select" placeholder="state" >
-     <option value="ABUJA FCT">ABUJA</option>
+          <div class="form-container">
+            <form action="https://formspree.io/f/xeqvnlve" method="POST">
+    <div class="input-cnt">
+      <i class="material-icons">person</i>
+      <input type="text" placeholder="Name" name="Name" />
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">phone No</i>
+      <input type="tel" name="Phone no" placeholder="07088888555" minlength="11" pattern="\d{11}" title="Please check your number well" required />
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">phone NoAgain</i>
+      <input type="tel" name="Phone noAgain" placeholder="07088888555" minlength="11" pattern="\d{11}" title="Please check your number well" required />
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">State</i>
+      <div class="custom_select">
+        <select name="state" id="select" required>
+          <option value="ABUJA FCT">ABUJA</option>
      <option value="ABIA">ABIA</option>
      <option value="ADAMAWA">ADAMAWA</option>
      <option value="AKWA IBOM">AKWA IBOM</option>
@@ -271,17 +289,16 @@
      <option value="TARABA">TARABA</option>
      <option value="YOBE">YOBE</option>
      <option value="ZAMFARA">ZAMFARA</option>
-     
-     </select>
-     </div>
-     </div>
-     <div class="input-cnt">
-     <i class="material-icons">Adress</i>
-     <input type="text" " name="Location" required/>
-     </div>
-     <h3><center>Choose Quantity Required</center></h3>
-     <input type="radio" name="amount" value="1bottle" id="1bottle" />
-     <label  for="1bottle"><span></span><b>One bottle of the PROSTATE WEL SOLUTION CAPSULES &#8358 25,000</b> </label>
+        </select>
+      </div>
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">Address</i>
+      <input type="text" name="Location" required />
+    </div>
+    <h3 style="text-align: center;">Choose Quantity Required</h3>
+    <input type="radio" name="amount" value="1bottle" id="1bottle" />
+    <label  for="1bottle"><span></span><b>One bottle of the PROSTATE WEL SOLUTION CAPSULES &#8358 25,000</b> </label>
      <input type="radio" name="amount" value="2bottle" id="2bottle" />
      <label for="2bottle"><span></span><b>Two bottles of the PROSTATE WEL SOLUTION CAPSULES &#8358 40,000</b></label>
      
@@ -290,12 +307,13 @@
      
      <input type="radio" name="amount" value="4bottle" id="4bottle" />
      <label for="4bottle"><span></span><b> Four bottles of the PROSTATE WEL SOLUTION CAPSULES &#8358 60,000</b> </label>
-     <div class="input-cnt">
-       <center> <button type="submit" id="submit-button"  class="call-to-action-button">GET MY PACK NOW</button> </center>
-     </div> 
+     <input type="hidden" name="conversion" value="button_click">
+       <center> <button type="submit" id="submit-button" class="call-to-action-button" onclick="gtag_report_conversion();">GET MY PACK NOW</button> </center>
+     </div>
+  </form>
+</div>
+
      
-     
-     </form></div>
       <p class="big-text">The Prostate WEL formula consists of 12 herbs that synergistically work together to ease the discomfort of prostate enlargement.
         This image you're looking at are the Prostoblend herbs in its rawest form. Our formula is based off of Traditional Eastern Herbology one of the oldest forms of herbal medicine dating back over 2000 years! 
         The white herb you see below is the epimedium  herb. Although our herbal formula requires each herb to depend on each other to do its job--the mushroom has quite the history 
@@ -308,6 +326,13 @@
           <a href="https://api.whatsapp.com/send?phone=2349151625737&text=Good%20day%2C%20I%20want%20to%20order%20the%20prostate%20wel%20solution%20capsules." target="_blank">
 <img src="img/whatsapp.png" alt="order through whatsapp"><br></a>
     </div>
+    <div id="popup-container">
+        <div id="popup-content">
+          <b>Shola From Abuja Just ordered Three Bottles of the prostate solution</b>
+        </div>
+    </div>
+    
+
           <div class="common"><strong>TESTIMONIALS</strong></div>
      <h3 class="help">We 've helped <br> thousands of men <br>find relief</h3>
      <div class="bd-example">
@@ -905,6 +930,7 @@
      </div>
      </div>
      </div>
+     <script src="yourscript.js"></script>
      <footer class="footer-distributed">
      
      <div class="footer-left">
