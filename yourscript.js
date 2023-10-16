@@ -18,14 +18,14 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(function() {
             popupContainer.style.display = "none";
             contentIndex = (contentIndex + 1) % contentArray.length;
-        }, 3000); // Hide the pop-up after 3 seconds (simulating a notification)
+        }, 6000); // Hide the pop-up after 6 seconds (simulating a notification)
     }
 
     function initialPopupWithDelay() {
         setTimeout(function() {
             showPopup();
             setInterval(showPopup, 30000); // Show the pop-up every minute
-        }, 45000); // Initial delay of 2 minutes
+        }, 40000); // Initial delay of 2 minutes
     }
 
     initialPopupWithDelay();
