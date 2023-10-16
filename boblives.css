@@ -93,7 +93,19 @@ html, body {width: auto!important;
     color: #FFF;
     font-size: 14vw; /* Make the icon responsive with a relative size */
 }
-
+#popup-container {
+  position: fixed;
+  top: 0px; /* Adjust the distance from the top as needed */
+  right: 10px; /* Adjust the distance from the right as needed */
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+#popup-content {
+  font-size: 18px;
+}
 
   .gfont{font-family: 'Arvo', serif;}
    .therapy{font-family: 'Arvo', serif;
