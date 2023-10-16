@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const popupContent = document.getElementById("popup-content");
 
     const contentArray = [
-        "Shola From Abuja Just ordered Three Bottles of the prostate solution 3 min ago and is permanenty free from frequent urination!",
+        "Shola From Abuja Just ordered Three Bottles of the prostate solution 3 min ago and is about to be permanenty free from frequent urination!",
         "Oluwafemi From Ilorin Just ordered Three Bottles of the prostate solution 10 min ago and is escaping prostate problems!",
         "Amb Nnabuihe From Warri Just ordered Two Bottles of the prostate solution 7 min ago and would see his psa level comimg down!",
         "Mr Musa From Minna Just ordered Two Bottles of the prostate solution 7 min ago!!",
